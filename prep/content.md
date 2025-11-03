@@ -36,19 +36,25 @@ Topic: **medical autopsy**
 
 * I searched up "What does the LiDAR do in autopsy?" this is what showed up:
   * https://healthjournalism.org/glossary-terms/lidar/
+
 **LiDAR Technology**
+
 * In healthcare, LiDAR can be used to monitor patient movements, assist in fall detection, and create detailed 3D maps of health environments or assist in surgical planning by providing high-resolution spatial data.
   * [LiADAR](https://3dwithus.com/wp-content/uploads/2025/01/3DMakerpro-Eagle-Launch-Article-Hero-Image-png.webp)
  
 * I searched up "The uses of autopsy saws in surgey" and that is what showed up:
    * https://dl.acm.org/doi/10.1145/3326172.3326177
+
 **Autopsy Saws**
+
 * This device allows safe, remote operation to reduce noise, contamination, and injury risks during autopsies. It improves safety for technicians and enhances precision in opening cranial or other bones during autopsy procedures.
   * [autopsy saw](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.atlasprosales.com%2Fautopsy_saw_p%2Ft-cc-200.htm&psig=AOvVaw3a4H_WPiERpFbeWb5gLVYu&ust=1762215316829000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCODTnePZ1JADFQAAAAAdAAAAABAE)
  
 * I searched up "Ventilator in hospitals" and that is what showd up:
   * https://www.nhlbi.nih.gov/health/ventilator
+
 **Ventilator**
+
 * While primarily used in living patients, ventilators can be relevant in autopsy cases involving respiratory failure or in research settings where respiratory mechanics are studied post-mortem or in simulation.
   * [Mechanical Ventilator](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMedical_ventilator_001.jpg&psig=AOvVaw0PvDyPSo_xmjP54BEbyIwR&ust=1762215502232000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCKCFxLna1JADFQAAAAAdAAAAABAE) 
 ## Part B: possible future technology
