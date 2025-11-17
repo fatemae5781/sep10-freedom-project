@@ -7,56 +7,73 @@ Topic: **medical autopsy**
 * Autopsies help improve medical knowledge and ensure justice in criminal cases.
 
 ## Part A: existing technology
-* I searched up "autopsy technology" and this is what came up 
-  * https://pmc.ncbi.nlm.nih.gov/articles/PMC12104169/
+# **Early 19th Century: Autopsy Saws**
+* Development: Made in the 1800s, with electric versions appearing around 1900.
+* What it is: Mechanical saws used to cut bones during autopsies.
+* Why it’s important: Allowed precise cutting of skulls and bones safely and efficiently.
+    * [autopsy saw](https://www.atlasprosales.com/autopsy_saw_p/t-cc-200.htm)
+* These saws helped forensic doctors and pathologists open bodies more easily than manual tools.
 
-**Virtual Autopsy**
+# **1920s: Modern Ventilators (The "Iron Lung")** 
+* Development: The first modern positive-pressure ventilator was created in the 1950s, but early negative-pressure devices like the "iron lung" appeared in the 1920s.
+* What it is: Machines that help patients breathe.
+* Why it’s important: Saved lives during polio epidemics and are used today in hospitals.
+     * [Ventilator](https://www.nhlbi.nih.gov/health/ventilator)
+* Although mainly for living patients, ventilators can be used in research or in post-mortem studies related to respiratory functions.
 
-* Virtual autopsy uses special machines like CT scans to look inside the body without cutting it open. It creates 3D images of the inside of the body, which doctors can study on a computer. This method is less upsetting for families and faster than traditional autopsies. It helps find out the cause of death accurately.
-  
-  * [CT scan](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rsna.org%2Fnews%2F2016%2Fmarch%2Fvirtual-autopsy-connects-radiology-and-forensics&psig=AOvVaw0PUtWtFVQAOzSkGGFEzVLp&ust=1761009288274000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCNCZufrMsZADFQAAAAAdAAAAABAE)
+# **Late 20th Century: Imaging & Digital Forensics**
+**Virtual Autopsy (CT scans)**
+* Development: Became widespread in the late 1990s and early 2000s.
+* What it is: Uses CT scans to produce 3D images of the inside of bodies without cutting.
+* Why it’s important: Faster, less upsetting, and very accurate for determining cause of death.
+     * [Scan](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104169/)
+* Allowed doctors to examine bodies in detail without invasive procedures.
 
-* I searched up "autopsy websites" and this is what came up
-  * https://www.sleuthkit.org/autopsy/
- 
-**Digital Forensics in Autopsies**
-* Some new tools help forensic doctors investigate death scenes using computers. These tools can analyze digital data from devices, like phones or computers, to find clues about how someone died. They help solve mysteries quickly and accurately.
-   
-   * [Autopsy digital forensic tool](https://www.google.com/url?sa=i&url=https%3A%2F%2Feforensicsmag.com%2Fautopsy-the-digital-forensics-toolkit%2F&psig=AOvVaw0MQgDU5fD1bj84oZqVty5t&ust=1761010078521000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCNC9pp3QsZADFQAAAAAdAAAAABAE)
+**Digital Forensics (Autopsy Software)**
+* Development: Started in 2000.
+* What it is: Software like "Autopsy" helps analyze digital data from devices involved in death investigations.
+* Why it’s important: Quickly finds clues from phones, computers, or other devices.
+         *  [Tool](https://www.sleuthkit.org/autopsy/)
+* Helps forensic experts solve mysteries by examining digital evidence.
 
-### I have searched up " medical autopsy hardware and a bunch of objects showed up so i decided to search each one individually.
+# **Early 2000s: Virtual Autopsy and 3D Visualization**
+**Virtopsy Project**
+* Development: Started in 2000 at the University of Zurich.
+* What it is: Uses CT and MRI scans for non-invasive, 3D reconstructions of bodies.
+* Why it’s important: Provides detailed internal views for forensic and medical use.
+       * [CT](https://virtopsy.com/)
 
-* I searched up "what is a virtual autopsy table" this is what showed up:
-  * https://www.researchgate.net/figure/A-touch-table-known-as-the-Virtual-Autopsy-Table-for-presentation-of-for-instance-CT_fig2_283593703
- 
 **Virtual Autopsy Table**
-* This interactive table allows medical professionals and researchers to explore 3D visualizations of autopsy data, such as CT scans, enhancing understanding of internal structures without invasive procedures. It facilitates detailed analysis and presentation of autopsy findings in a collaborative and engaging manner.
+* Development: Demonstrated in 2009.
+* What it is: An interactive touch table for exploring 3D autopsy data.
+* Why it’s important: Improves understanding and presentation of internal structures.
+     * [Virtual Table](https://www.researchgate.net/figure/A-touch-table-known-as-the-Virtual-Autopsy-Table-for-presentation-of-for-instance-CT_fig2_283593703)
 
-  * [virtual table](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.researchgate.net%2Ffigure%2FA-touch-table-known-as-the-Virtual-Autopsy-Table-for-presentation-of-for-instance-CT_fig2_283593703&psig=AOvVaw0X5TIJbUJ3sehTDD-JMFij&ust=1762214866621000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCMDdzYzY1JADFQAAAAAdAAAAABAE)
+**FATAL3D Forensic Autopsy Software**
+* Development: Between September 2022 and November 2023 (latest iteration).
+* What it is: 3D digital platform to model injuries, wound paths, and bullet trajectories.
+* Why it’s important: Great for court evidence, education, and detailed forensic analysis.
+     * [FATAL3D](https://www.fatal.report/)
 
-* I searched up "What does the LiDAR do in autopsy?" this is what showed up:
-  * https://healthjournalism.org/glossary-terms/lidar/
-
+# **2010s and Beyond: High-Resolution Mapping & Cause-of-Death Tools**
 **LiDAR Technology**
+* Development: Invented in 1961, but widespread in healthcare and forensic use from the 2010s.
+* What it is: Laser scanning to create detailed 3D maps.
+* Why it’s important: Used for scene reconstruction, body mapping, or surgical planning.
+         * [LiDAR](https://healthjournalism.org/glossary-terms/lidar/)
 
-* In healthcare, LiDAR can be used to monitor patient movements, assist in fall detection, and create detailed 3D maps of health environments or assist in surgical planning by providing high-resolution spatial data.
-  * [LiADAR](https://3dwithus.com/wp-content/uploads/2025/01/3DMakerpro-Eagle-Launch-Article-Hero-Image-png.webp)
- 
-* I searched up "The uses of autopsy saws in surgey" and that is what showed up:
-   * https://dl.acm.org/doi/10.1145/3326172.3326177
+**Verbal Autopsy (SmartVA-Analyze)**
+* Development: Developed around 2005-2010.
+* What it is: Software to determine causes of death from interviews in areas lacking vital records.
+* Why it’s important: Helps health systems improve by understanding why people die.
+     * [autopsy tool](https://www.healthdata.org/data-tools-practices/verbal-autopsy)
 
-**Autopsy Saws**
+**Medical Examiner CMS (by Forensic Advantage)**
+* Development: Became more common in the 2010s.
+* What it is: Digital case management system for organizing death investigations.
+* Why it’s important: Efficiently tracks all case details, evidence, and reports.
+      * [CMS](https://www.forensicadvantage.com/medical-examiner-edition)
 
-* This device allows safe, remote operation to reduce noise, contamination, and injury risks during autopsies. It improves safety for technicians and enhances precision in opening cranial or other bones during autopsy procedures.
-  * [autopsy saw](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.atlasprosales.com%2Fautopsy_saw_p%2Ft-cc-200.htm&psig=AOvVaw3a4H_WPiERpFbeWb5gLVYu&ust=1762215316829000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCODTnePZ1JADFQAAAAAdAAAAABAE)
- 
-* I searched up "Ventilator in hospitals" and that is what showd up:
-  * https://www.nhlbi.nih.gov/health/ventilator
-
-**Ventilator**
-
-* While primarily used in living patients, ventilators can be relevant in autopsy cases involving respiratory failure or in research settings where respiratory mechanics are studied post-mortem or in simulation.
-  * [Mechanical Ventilator](https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AMedical_ventilator_001.jpg&psig=AOvVaw0PvDyPSo_xmjP54BEbyIwR&ust=1762215502232000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCKCFxLna1JADFQAAAAAdAAAAABAE) 
 ## Part B: possible future technology
 * In the future, doctors might wear AR headsets that show 3D images of the inside of a body during an autopsy. This means they can see and explore the organs without cutting open the body. AI could also help by automatically analyzing scans and giving a report about the cause of death. This technology would make autopsies faster, less painful for families, and more accurate.
 
