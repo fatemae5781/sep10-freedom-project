@@ -75,6 +75,4 @@ Topic: **medical autopsy**
       * [CMS](https://www.forensicadvantage.com/medical-examiner-edition)
 
 ## Part B: possible future technology
-* In the future, doctors might wear AR headsets that show 3D images of the inside of a body during an autopsy. This means they can see and explore the organs without cutting open the body. AI could also help by automatically analyzing scans and giving a report about the cause of death. This technology would make autopsies faster, less painful for families, and more accurate.
-
-   * A doctor could wear AR glasses to look inside a body and find injuries or problems quickly. AI could help identify issues like broken bones or diseases from scans, saving time and improving results.
+* 
