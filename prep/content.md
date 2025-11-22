@@ -13,12 +13,13 @@ Topic: **medical autopsy**
 * Why it’s important: Allowed precise cutting of skulls and bones safely and efficiently.
     * [autopsy saw](https://www.atlasprosales.com/autopsy_saw_p/t-cc-200.htm)
 * These saws helped forensic doctors and pathologists open bodies more easily than manual tools.
+   *  
 
 # **1920s: Modern Ventilators (The "Iron Lung")** 
 * Development: The first modern positive-pressure ventilator was created in the 1950s, but early negative-pressure devices like the "iron lung" appeared in the 1920s.
 * What it is: Machines that help patients breathe.
 * Why it’s important: Saved lives during polio epidemics and are used today in hospitals.
-     * [Ventilator](https://www.nhlbi.nih.gov/health/ventilator)
+   * [Ventilator](https://www.nhlbi.nih.gov/health/ventilator)
 * Although mainly for living patients, ventilators can be used in research or in post-mortem studies related to respiratory functions.
 
 # **Late 20th Century: Imaging & Digital Forensics**
@@ -26,14 +27,14 @@ Topic: **medical autopsy**
 * Development: Became widespread in the late 1990s and early 2000s.
 * What it is: Uses CT scans to produce 3D images of the inside of bodies without cutting.
 * Why it’s important: Faster, less upsetting, and very accurate for determining cause of death.
-     * [Scan](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104169/)
+   * [Scan](https://pmc.ncbi.nlm.nih.gov/articles/PMC12104169/)
 * Allowed doctors to examine bodies in detail without invasive procedures.
 
 **Digital Forensics (Autopsy Software)**
 * Development: Started in 2000.
 * What it is: Software like "Autopsy" helps analyze digital data from devices involved in death investigations.
 * Why it’s important: Quickly finds clues from phones, computers, or other devices.
-         *  [Tool](https://www.sleuthkit.org/autopsy/)
+   *  [Tool](https://www.sleuthkit.org/autopsy/)
 * Helps forensic experts solve mysteries by examining digital evidence.
 
 # **Early 2000s: Virtual Autopsy and 3D Visualization**
@@ -41,38 +42,69 @@ Topic: **medical autopsy**
 * Development: Started in 2000 at the University of Zurich.
 * What it is: Uses CT and MRI scans for non-invasive, 3D reconstructions of bodies.
 * Why it’s important: Provides detailed internal views for forensic and medical use.
-       * [CT](https://virtopsy.com/)
+   * [CT](https://virtopsy.com/)
 
 **Virtual Autopsy Table**
 * Development: Demonstrated in 2009.
 * What it is: An interactive touch table for exploring 3D autopsy data.
 * Why it’s important: Improves understanding and presentation of internal structures.
-     * [Virtual Table](https://www.researchgate.net/figure/A-touch-table-known-as-the-Virtual-Autopsy-Table-for-presentation-of-for-instance-CT_fig2_283593703)
+   * [Virtual Table](https://www.researchgate.net/figure/A-touch-table-known-as-the-Virtual-Autopsy-Table-for-presentation-of-for-instance-CT_fig2_283593703)
+     ![](https://www.mmu.ac.uk/sites/default/files/2018-10-11%2009%3A13%3A15/5bbf13e8d2faf.jpeg)
 
 **FATAL3D Forensic Autopsy Software**
 * Development: Between September 2022 and November 2023 (latest iteration).
 * What it is: 3D digital platform to model injuries, wound paths, and bullet trajectories.
 * Why it’s important: Great for court evidence, education, and detailed forensic analysis.
-     * [FATAL3D](https://www.fatal.report/)
+   * [FATAL3D](https://www.fatal.report/)
+     ![](https://www.fatal.report/images/trajectory.png)
 
 # **2010s and Beyond: High-Resolution Mapping & Cause-of-Death Tools**
 **LiDAR Technology**
 * Development: Invented in 1961, but widespread in healthcare and forensic use from the 2010s.
 * What it is: Laser scanning to create detailed 3D maps.
 * Why it’s important: Used for scene reconstruction, body mapping, or surgical planning.
-         * [LiDAR](https://healthjournalism.org/glossary-terms/lidar/)
+   * [LiDAR](https://healthjournalism.org/glossary-terms/lidar/)
 
 **Verbal Autopsy (SmartVA-Analyze)**
 * Development: Developed around 2005-2010.
 * What it is: Software to determine causes of death from interviews in areas lacking vital records.
 * Why it’s important: Helps health systems improve by understanding why people die.
-     * [autopsy tool](https://www.healthdata.org/data-tools-practices/verbal-autopsy)
+   * [autopsy tool](https://www.healthdata.org/data-tools-practices/verbal-autopsy)
 
 **Medical Examiner CMS (by Forensic Advantage)**
 * Development: Became more common in the 2010s.
 * What it is: Digital case management system for organizing death investigations.
 * Why it’s important: Efficiently tracks all case details, evidence, and reports.
-      * [CMS](https://www.forensicadvantage.com/medical-examiner-edition)
+   * [CMS](https://www.forensicadvantage.com/medical-examiner-edition)
 
 ## Part B: possible future technology
-* 
+
+**MEMORY SCANNER DEVICE**
+ * It’s like a USB that can read a person’s last moments.
+* It would allow doctors to see what the patient experienced just before death.
+* This helps understand the cause of death more accurately, especially in sudden cases.
+  ![3fb0a8b9-8c44-4d19-b2bc-b14c86ba7985](https://github.com/user-attachments/assets/a0926777-71db-4eaa-9ef4-26be8f836998)
+
+**AR GLASSES FOR AUTOPSY**
+*  Special glasses doctors wear during autopsy that show inside the body in real time.
+* They can zoom in on organs or tissues to see problems clearly.
+* It makes the autopsy faster and more precise without cutting too much.
+   ![cbfadb83-9709-49ce-884f-2bcadf0c49a6](https://github.com/user-attachments/assets/5b5e3c00-54a6-4d09-b5ce-659df12c7ee3)
+
+
+**BODY TEMPERATURE AND TIME DEVICE**
+* A tool that touches the body and instantly tells when the person died.
+* No need for long research or calculations.
+* It helps speed up the process and improves accuracy in determining death time.
+
+**FROZEN INSIDE BODY SCANNER**
+* A machine that instantly freezes the inside of the body after death.
+* The body stays exactly as it was when the person died.
+* Doctors can examine the body without it changing or decaying, giving more accurate results.
+
+**ROBOTIC AUTOPSY ASSISTANT**  
+* Robots that help doctors during autopsy.
+* They can carefully cut and examine the body, reducing human error.
+* It’s especially useful for difficult or dangerous autopsies
+* When the surgery is too long it could be easy for the robot to stand and finish the surgery
+
