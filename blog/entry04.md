@@ -1,7 +1,64 @@
 # Entry 4
-##### X/X/XX
+##### 3/14/26
 
-Text
+---
+# content
+I tinkered with a lot of tools such as Sass, Skeleton, and AnimationCSS, and I watched many videos about them. However, I chose A-Frame because it caught my attention the most. When we started selecting tools for our freedom project, many options seemed good, but A-Frame stood out to me. I believe this tool will help me bring my ideas for new devices to life, like the MEMORY SCANNER DEVICE, AR GLASSES FOR AUTOPSY, BODY TEMPERATURE AND TIME DEVICE, FROZEN INSIDE BODY SCANNER, and ROBOTIC AUTOPSY ASSISTANT. These are the ideas I came up with, and with A-Frame, I will be able to code and make them look exactly how I imagine.  
+
+I chose A-Frame because I found out that I can create 3D objects and design devices in a virtual space, which I thought was really cool. It would allow people to see my ideas clearly. To learn more, I went to the CS50 Dev IDE and experimented with the code. I tried changing the color, position, and rotation of objects to see how they affected the scene. For example, I changed the color of an object to purple, blue, and pink, and I adjusted the position and rotation to make shapes like a heart and a diamond.  
+ 
+Here is an example of how I tinkered with the code:  
+**Before:**
+  ```html        
+         <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+```
+**After:**  
+    ```html
+          <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
+    ```
+**Before:**  
+```html
+<a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+```  
+
+**After (circle turned into a heart, pink color):**  
+```html
+<a-entity position="0 1.25 -3">
+  <!-- Top left of heart -->
+  <a-sphere position="-0.3 0.2 0" radius="0.2" color="#FFC0CB"></a-sphere>
+  <!-- Top right of heart -->
+  <a-sphere position="0.3 0.2 0" radius="0.2" color="#FFC0CB"></a-sphere>
+  <!-- Bottom point of heart -->
+  <a-cone position="0 -0.5 0" radius-bottom="0.3" height="0.5" rotation="0 0 180" color="#FFC0CB"></a-cone>
+</a-entity>
+```
+![picture](04b446b7-6367-429f-af0f-6847289b85f9)
+
+
+**Before:**  
+```html
+<a-cylinder position="2 1 -5" radius="0.5" height="1.5" color="#00BFFF"></a-cylinder>
+```  
+
+**After (cylinder turned into a diamond, blue color, different position):**  
+```html
+<a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
+```  
+
+I moved the diamond to a different position and changed the shape from a cylinder to a tetrahedron (diamond shape), with a blue color.  
+
+**Sky Turned Blue:**  
+```html
+<a-sky color="#0000FF"></a-sky>
+```  
+I changed the sky color to blue, giving the scene a more calming and immersive look.  
+
+Watching videos about A-Frame helped me understand how it works, and seeing examples gave me ideas for creating my own 3D images.  
+
+The skills I learned include understanding the code of A-Frame, which I had never known before. This taught me how to make 3D images and experiment by tinkering with the code, changing colors, positions, and shapes. Looking for videos and examples helped me see how to use A-Frame effectively. Overall, this experience improved my coding skills and made me more confident in creating 3D scenes.  
+
+---
+
 
 [Previous](entry03.md) | [Next](entry05.md)
 
