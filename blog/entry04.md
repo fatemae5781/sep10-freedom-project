@@ -5,7 +5,7 @@
 # content
 I tinkered with a lot of tools such as Sass, Skeleton, and AnimationCSS, and I watched many videos about them. However, I chose A-Frame because it caught my attention the most. When we started selecting tools for our freedom project, many options seemed good, but A-Frame stood out to me. I believe this tool will help me bring my ideas for new devices to life, like the MEMORY SCANNER DEVICE, AR GLASSES FOR AUTOPSY, BODY TEMPERATURE AND TIME DEVICE, FROZEN INSIDE BODY SCANNER, and ROBOTIC AUTOPSY ASSISTANT. These are the ideas I came up with, and with A-Frame, I will be able to code and make them look exactly how I imagine.  
 
-I chose A-Frame because I found out that I can create 3D objects and design devices in a virtual space, which I thought was really cool. It would allow people to see my ideas clearly. To learn more, I went to the CS50 Dev IDE and experimented with the code. I tried changing the color, position, and rotation of objects to see how they affected the scene. For example, I changed the color of an object to purple, blue, and pink, and I adjusted the position and rotation to make shapes like a heart and a diamond.  
+I chose A-Frame because I found out that I can create 3D objects and design devices in a virtual space, which I thought was really cool. It would allow people to see my ideas clearly. To learn more about the code i used [A-frame school](https://aframe.io/aframe-school/#/) to show me the codes and how to use them and it was very helpful. To learn more, I went to the CS50 Dev IDE and experimented with the code. I added the code that was presented to me first from [A-frame document](https://aframe.io/docs/1.7.0/introduction/) to the ide. I tried changing the color, position, and rotation of objects to see how they affected the scene. For example, I changed the color of an object to purple, blue, and pink, and I adjusted the position and rotation to make shapes like a heart and a diamond.  
  
 Here is an example of how I tinkered with the code:  
 **Before:**
@@ -32,8 +32,6 @@ Here is an example of how I tinkered with the code:
   <a-cone position="0 -0.5 0" radius-bottom="0.3" height="0.5" rotation="0 0 180" color="#FFC0CB"></a-cone>
 </a-entity>
 ```
-![picture](04b446b7-6367-429f-af0f-6847289b85f9)
-
 
 **Before:**  
 ```html
