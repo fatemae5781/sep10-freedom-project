@@ -11,13 +11,13 @@ Here is an example of how I tinkered with the code:
 
 **Before:**
   ```html        
-         <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
+  <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
 ```
 
 **After:**  
-    ```html
-          <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
-    ```
+ ```html
+  <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
+ ```
 **Before:**  
 ```html
 <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
@@ -39,7 +39,7 @@ Here is an example of how I tinkered with the code:
 ```html
 <a-cylinder position="2 1 -5" radius="0.5" height="1.5" color="#00BFFF"></a-cylinder>
 ```  
-![picture]()
+
 **After (cylinder turned into a diamond, blue color, different position):**  
 ```html
 <a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
@@ -53,7 +53,12 @@ I moved the diamond to a different position and changed the shape from a cylinde
 ```  
 I changed the sky color to blue, giving the scene a more calming and immersive look.  
 
-Watching videos about A-Frame helped me understand how it works, and seeing examples gave me ideas for creating my own 3D images.  
+Watching videos in [Youtube](https://www.youtube.com/playlist?list=PLWkWuhMLkR7D_VSEMkj45NIgF8i2dlUce) about A-Frame helped me understand how it works, and seeing examples gave me ideas for creating my own 3D images.
+
+**Skills:**
+The skills I gained include learning on my own because we had to try out many tools to pick the one we wanted to use. I had to learn what each tool does, watch videos, and code with them to understand how they work. By doing this, I gained a little knowledge about each tool. I chose A-Frame because it caught my attention and seemed easy to use for making 3D objects.  
+
+Another skill I developed is problem-solving. While tinkering with the code, I faced challenges like changing shapes or colors and making objects look right. For example, when I was changing the color of the sky to blue, I initially made it the same blue as a shape in my scene. It blended in too much and looked bad. So, I had to change the sky color to light blue, which made everything look much better. This experience taught me how to fix problems and find solutions, which is useful outside of my project as well.
 
 The skills I learned include understanding the code of A-Frame, which I had never known before. This taught me how to make 3D images and experiment by tinkering with the code, changing colors, positions, and shapes. Looking for videos and examples helped me see how to use A-Frame effectively. Overall, this experience improved my coding skills and made me more confident in creating 3D scenes.  
 
