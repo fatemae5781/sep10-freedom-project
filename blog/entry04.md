@@ -8,10 +8,12 @@ I tinkered with a lot of tools such as Sass, Skeleton, and AnimationCSS, and I w
 I chose A-Frame because I found out that I can create 3D objects and design devices in a virtual space, which I thought was really cool. It would allow people to see my ideas clearly. To learn more about the code i used [A-frame school](https://aframe.io/aframe-school/#/) to show me the codes and how to use them and it was very helpful. To learn more, I went to the CS50 Dev IDE and experimented with the code. I added the code that was presented to me first from [A-frame document](https://aframe.io/docs/1.7.0/introduction/) to the ide. I tried changing the color, position, and rotation of objects to see how they affected the scene. For example, I changed the color of an object to purple, blue, and pink, and I adjusted the position and rotation to make shapes like a heart and a diamond.  
  
 Here is an example of how I tinkered with the code:  
+
 **Before:**
   ```html        
          <a-box position="-1 0.5 -3" rotation="0 45 0" color="#4CC3D9"></a-box>
 ```
+
 **After:**  
     ```html
           <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
@@ -37,7 +39,7 @@ Here is an example of how I tinkered with the code:
 ```html
 <a-cylinder position="2 1 -5" radius="0.5" height="1.5" color="#00BFFF"></a-cylinder>
 ```  
-
+![picture]()
 **After (cylinder turned into a diamond, blue color, different position):**  
 ```html
 <a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
