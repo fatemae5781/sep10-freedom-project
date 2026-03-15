@@ -7,7 +7,7 @@ I tinkered with a lot of tools such as Sass, Skeleton, and AnimationCSS, and I w
 
 I chose A-Frame because I found out that I can create 3D objects and design devices in a virtual space, which I thought was really cool. It would allow people to see my ideas clearly. To learn more about the code i used [A-frame school](https://aframe.io/aframe-school/#/) to show me the codes and how to use them and it was very helpful. To learn more, I went to the CS50 Dev IDE and experimented with the code. I added the code that was presented to me first from [A-frame document](https://aframe.io/docs/1.7.0/introduction/) to the ide. I tried changing the color, position, and rotation of objects to see how they affected the scene. For example, I changed the color of an object to purple, blue, and pink, and I adjusted the position and rotation to make shapes like a heart and a diamond.  
  
-Here is an example of how I tinkered with the code:  
+## Here is an example of how I tinkered with the code:  
 
 **Before:**
   ```html        
@@ -18,7 +18,7 @@ Here is an example of how I tinkered with the code:
  ```html
   <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
  ```
-Example two:
+## Example two:
 
 **Before:**  
 ```html
@@ -36,7 +36,7 @@ Example two:
   <a-cone position="0 -0.5 0" radius-bottom="0.3" height="0.5" rotation="0 0 180" color="#FFC0CB"></a-cone>
 </a-entity>
 ```
-Example three:
+## Example three:
 
 **Before:**  
 ```html
@@ -50,7 +50,7 @@ Example three:
 
 I moved the diamond to a different position and changed the shape from a cylinder to a tetrahedron (diamond shape), with a blue color.  
 
-Example four:
+## Example four:
 
 **Sky Turned Blue:**  
 ```html
@@ -60,7 +60,8 @@ I changed the sky color to blue, giving the scene a more calming and immersive l
 
 Watching videos in [Youtube](https://www.youtube.com/playlist?list=PLWkWuhMLkR7D_VSEMkj45NIgF8i2dlUce) about A-Frame helped me understand how it works, and seeing examples gave me ideas for creating my own 3D images.
 
-**Skills:**
+# Skills:
+
 The skills I gained include learning on my own because we had to try out many tools to pick the one we wanted to use. I had to learn what each tool does, watch videos, and code with them to understand how they work. By doing this, I gained a little knowledge about each tool. I chose A-Frame because it caught my attention and seemed easy to use for making 3D objects.  
 
 Another skill I developed is problem-solving. While tinkering with the code, I faced challenges like changing shapes or colors and making objects look right. For example, when I was changing the color of the sky to blue, I initially made it the same blue as a shape in my scene. It blended in too much and looked bad. So, I had to change the sky color to light blue, which made everything look much better. This experience taught me how to fix problems and find solutions, which is useful outside of my project as well.
