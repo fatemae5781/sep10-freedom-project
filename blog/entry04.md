@@ -48,7 +48,7 @@ I chose A-Frame because I found out that I can create 3D objects and design devi
 <a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
 ```  
 
-I moved the diamond to a different position and changed the shape from a cylinder to a tetrahedron (diamond shape), with a blue color.  
+I moved the diamond to a different position and changed the shape from a cylinder to a diamond shape, with a blue color.  
 
 ## Example four:
 
@@ -56,7 +56,7 @@ I moved the diamond to a different position and changed the shape from a cylinde
 ```html
 <a-sky color="#0000FF"></a-sky>
 ```  
-I changed the sky color to blue, giving the scene a more calming and immersive look.  
+I changed the sky color to a light blue.  
 
 Watching videos in [Youtube](https://www.youtube.com/playlist?list=PLWkWuhMLkR7D_VSEMkj45NIgF8i2dlUce) about A-Frame helped me understand how it works, and seeing examples gave me ideas for creating my own 3D images.
 
