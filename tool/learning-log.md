@@ -33,8 +33,30 @@
 * I plan to experiment more with adding textures and materials to objects for better visual effects.
 * I will explore more complex shapes and see how I can combine them to make my device ideas like the MEMORY SCANNER or AR GLASSES in 3D.
 
-### X/X/XX:
-* Text
+### 3/29/26:
+* Today i have tried to make a stick man since all i have been doing were shapes.
+* I was still confused with the positioning so i had to google it and see how to position the lines and the head in order to make it look good
+* This was the code that i used to make the stick man
+
+```css
+  <a-entity position="0 0 0">
+
+    <a-sphere position="0 2.5 0" radius="0.2" color="#000000"></a-sphere>
+
+    <a-cylinder position="0 1.5 0" height="1" radius="0.05" color="#000000"></a-cylinder>
+
+    <a-cylinder position="-0.3 2 0" height="0.5" radius="0.05" rotation="0 0 45" color="#000000"></a-cylinder>
+    <
+    <a-cylinder position="0.3 2 0" height="0.5" radius="0.05" rotation="0 0 -45" color="#000000"></a-cylinder>
+
+    <a-cylinder position="-0.2 0.75 0" height="0.75" radius="0.05" rotation="45 0 0" color="#000000"></a-cylinder>
+
+    <a-cylinder position="0.2 0.75 0" height="0.75" radius="0.05" rotation="-45 0 0" color="#000000"></a-cylinder>
+  </a-entity>
+</a-scene>
+```
+
+* When i check it with the http-server i couldnt find it so i thought i did something wrong. I was looking around the screen so i clicked on the down arrow and there it was.
 
 
 <!--
