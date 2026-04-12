@@ -1,57 +1,67 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-         <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+<!-- Required meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
 
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
-        <link href="style.css" rel="stylesheet" type="text/css" />
-        <style>
-            /* CSS */
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" />
 
-        </style>
+<script src="https://unpkg.com/@c-frame/aframe-particle-system-component@1.2.x/dist/aframe-particle-system-component.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aframe-simple-sun-sky@^1.2.2/simple-sun-sky.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.5.0/dist/aframe-extras.min.js"></script>
+<style>
+  /* CSS */
+</style>
 
-        <title>Title</title>
-    </head>
-    <body>
-        <!-- HTML -->
- <a-scene>
-  <!-- Existing objects -->
-  <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
-  <a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
-  <a-entity position="0 1.25 -3">
-    <a-sphere position="-0.3 0.2 0" radius="0.5" color="#FF0000"></a-sphere>
-    <a-sphere position="0.3 0.2 0" radius="0.5" color="#FF0000"></a-sphere>
-    <a-cone position="0 -0.5 0" radius-bottom="0.7" height="0.10" rotation="0 0 180" color="#FF0000"></a-cone>
-  </a-entity>
-  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
-  <a-sky color="#ADD8E6"></a-sky>
+<title>Title</title>
+</head>
+<body>
 
-  <a-entity position="0 0 0">
+  <a-scene>
+ 
+    <a-box position="1 1.5 -4" rotation="0 45 0" color="#800080"></a-box>
+    <a-entity position="3 1.5 -6" geometry="primitive: tetrahedron" material="color: #0000FF"></a-entity>
+    <a-entity position="0 1.25 -3">
+      <a-sphere position="-0.3 0.2 0" radius="0.5" color="#FF0000"></a-sphere>
+      <a-sphere position="0.3 0.2 0" radius="0.5" color="#FF0000"></a-sphere>
+      <a-cone position="0 -0.5 0" radius-bottom="0.7" height="0.10" rotation="0 0 180" color="#FF0000"></a-cone>
+    </a-entity>
+    <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+    <a-sky color="#ADD8E6"></a-sky>
 
-    <a-sphere position="0 2.5 0" radius="0.2" color="#000000"></a-sphere>
+    <a-entity id="floating-objects" position="0 -1 -4" animation="property: position; dir: alternate; dur: 3000; easing: easeInOutSine; loop: true; to: 0 -1.05 -4">
+      <a-sphere position="0 2.5 0" radius="0.2" color="#000000"></a-sphere>
+      <a-cylinder position="0 1.5 0" height="1" radius="0.05" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.3 2 0" height="0.5" radius="0.05" rotation="0 0 45" color="#000000"></a-cylinder>
+      <a-cylinder position="0.3 2 0" height="0.5" radius="0.05" rotation="0 0 -45" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.2 0.75 0" height="0.75" radius="0.05" rotation="45 0 0" color="#000000"></a-cylinder>
+      <a-cylinder position="0.2 0.75 0" height="0.75" radius="0.05" rotation="-45 0 0" color="#000000"></a-cylinder>
+    </a-entity>
+  </a-scene>
 
-    <a-cylinder position="0 1.5 0" height="1" radius="0.05" color="#000000"></a-cylinder>
+  <a-scene>
+    <a-entity id="rain" particle-system="preset: rain; color: #24CAFF; particleCount: 5000" position="0 0 0"></a-entity>
 
-    <a-cylinder position="-0.3 2 0" height="0.5" radius="0.05" rotation="0 0 45" color="#000000"></a-cylinder>
-    <
-    <a-cylinder position="0.3 2 0" height="0.5" radius="0.05" rotation="0 0 -45" color="#000000"></a-cylinder>
+    <a-entity id="sphere" geometry="primitive: sphere" material="color: #EFEFEF; shader: flat" position="0 0.15 -5" light="type: point; intensity: 5" animation="property: position; easing: easeInOutQuad; dir: alternate; dur: 1000; to: 0 -0.10 -5; loop: true"></a-entity>
+    <a-entity id="ocean" ocean="density: 20; width: 50; depth: 50; speed: 4" material="color: #9CE3F9; opacity: 0.75; metalness: 0; roughness: 1" rotation="-90 0 0"></a-entity>
 
-    <a-cylinder position="-0.2 0.75 0" height="0.75" radius="0.05" rotation="45 0 0" color="#000000"></a-cylinder>
-    
-    <a-cylinder position="0.2 0.75 0" height="0.75" radius="0.05" rotation="-45 0 0" color="#000000"></a-cylinder>
-  </a-entity>
-</a-scene>
+    <a-simple-sun-sky sun-position="1 0.4 0"></a-simple-sun-sky>
 
+    <a-entity id="light" light="type: ambient; color: #888">
+      <a-sphere position="0 2.5 0" radius="0.2" color="#000000"></a-sphere>
+      <a-cylinder position="0 1.5 0" height="1" radius="0.05" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.3 2 0" height="0.5" radius="0.05" rotation="0 0 45" color="#000000"></a-cylinder>
+      <a-cylinder position="0.3 2 0" height="0.5" radius="0.05" rotation="0 0 -45" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.2 0.75 0" height="0.75" radius="0.05" rotation="45 0 0" color="#000000"></a-cylinder>
+      <a-cylinder position="0.2 0.75 0" height="0.75" radius="0.05" rotation="-45 0 0" color="#000000"></a-cylinder>
+    </a-entity>
+  </a-scene>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- <script src="script.js"></script> -->
-        <script>
-            // JS
-
-
-        </script>
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="script.js"></script> -->
+  <script>
+    // JS
+  </script>
+</body>
 </html>

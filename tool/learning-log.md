@@ -55,9 +55,30 @@
   </a-entity>
 </a-scene>
 ```
-
 * When i check it with the http-server i couldnt find it so i thought i did something wrong. I was looking around the screen so i clicked on the down arrow and there it was.
 
+#### 4/12/26
+
+* Last time when i tinkered with my tool i made a stick man so i wanted to play around with that stickman a little bit more
+
+* i wanted to make it sink into the water so i was looking around the A-frame codes and there was an ocean and a ball in the water so i used that code
+
+* i added the stickman to the code so it could show but for some reason it was above the water. i tried to change the position of the stickman to be under the water but it  still is not working. im pretty sure i am doing something wrong since im not good with positions
+
+* Even though this tinker was a fail i will try to study the positions more better inorder to make the stick man to be under the  water
+
+* That is why tinkering is good it helps you learn from your mistakes.
+```css
+<a-entity id="floating-objects" position="0 0 -4" animation="property: position; dir: alternate; dur: 3000; easing: easeInOutSine; loop: true; to: 0 -0.05 -4">
+      <a-sphere position="0 2.5 0" radius="0.2" color="#000000"></a-sphere>
+      <a-cylinder position="0 1.5 0" height="1" radius="0.05" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.3 2 0" height="0.5" radius="0.05" rotation="0 0 45" color="#000000"></a-cylinder>
+      <a-cylinder position="0.3 2 0" height="0.5" radius="0.05" rotation="0 0 -45" color="#000000"></a-cylinder>
+      <a-cylinder position="-0.2 0.75 0" height="0.75" radius="0.05" rotation="45 0 0" color="#000000"></a-cylinder>
+      <a-cylinder position="0.2 0.75 0" height="0.75" radius="0.05" rotation="-45 0 0" color="#000000"></a-cylinder>
+    </a-entity>
+  </a-scene>
+```
 
 <!--
 * Links you used today (websites, videos, etc)
