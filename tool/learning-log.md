@@ -79,6 +79,74 @@
     </a-entity>
   </a-scene>
 ```
+#### 4/16/26
+* I watched YouTube videos that explained how positioning and rotation work in A-Frame. I learned that position and rotation are how we move and turn objects in 3D space. The position tells us where the object is on the screen, using x, y, z numbers. The rotation tells us how much the object is turned around each axis.
+
+* X is left and right which means it is side to side. If I want the object to move to the right,I use a positive number like x=67. To move it left I use a negative number like x=-67.
+
+* Y is up and down. To make the object go higher I use a positive number like y=6. To go lower I use a negative number like y=-6.
+Z is forward and backward. Moving forward means a positive z like z=7. Moving backward means a negative z like z=-7.
+
+#### 4/17/26
+* I was supposed to learn motion capture today but i discoverd animation instead and i wanted to learn that. so i startedto read about it and it was really interesting and i will for sure use it in my freedom project. So animation in A-Frame lets us make objects move, change color, or do other things (like wave or jump). We do this by adding an animation component to an object. In this component we tell it what property we want to change like position or color and where we want it to go how long it should take, and what kind of movement it should have. For example if we want a red dot to move left and right, we animate its position on the x-axis. We set the starting position the position it should move to how long it should take and how it should move (like easing in and out). If we want it to keep swaying forever we set loop: true and dir: alternate, so it goes to one side and then back again. All these settings are written inside the animation attribute in the form of a string and A-Frame handles moving the object smoothly between the values.
+
+* geometry: Shape setup
+* material: Color setting
+* position: Starting point
+* animation: Movement magic
+* property: What to change
+* to: End position
+* dur: Movement time
+* easing: Smooth start/end
+* loop: Repeat forever
+* dir: Back and forth
+
+### Example
+
+```css
+a-entity
+      geometry="primitive: sphere; radius: 0.3"
+      material="color: red"
+      position="0 1.5 -3"
+      animation="
+        property: position.x;
+        to: 2;
+        dur: 2000;
+        easing: easeInOutQuad;
+        loop: true;
+        dir: alternate">
+    </a-entity>
+```
+
+#### 4/18/26
+* I wanted to make something using my knowledge from day one and two. SInce i made a stick man before i thought it would be fun if i saw him wave and i wanted to challange myself and acually see if i could do it and if i learned soemthing these past two days. It was easier than expected.
+
+* Here is my code:
+
+```css
+ <a-scene>
+
+  <a-sphere position="0 2.5 -4" radius="0.2" color="black"></a-sphere>
+
+
+    <a-cylinder position="0 1.5 -4" height="1" radius="0.05" color="black"></a-cylinder>
+
+    <a-cylinder position="-0.3 1.9 -4" height="0.4" radius="0.03" color="black"
+      rotation="0 0 0"
+      animation="property: rotation; to: 0 0 45; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+    <a-cylinder position="0.3 1.9 -4" height="0.4" radius="0.03" color="black"
+      rotation="0 0 -45"
+      animation="property: rotation; to: 0 0 45; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+
+    <a-cylinder position="-0.2 0.75 -4" height="0.5" radius="0.03" color="black"
+      animation="property: rotation; to: 10 0 0; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+    <a-cylinder position="0.2 0.75 -4" height="0.5" radius="0.03" color="black"
+      animation="property: rotation; to: -10 0 0; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+  </a-scene>
+```
 
 <!--
 * Links you used today (websites, videos, etc)

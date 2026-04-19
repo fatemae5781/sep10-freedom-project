@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
+  <title>move</title>
+</head>
+<body>
+  <a-scene>
+
+    <a-entity
+      geometry="primitive: sphere; radius: 0.3"
+      material="color: red"
+      position="0 1.5 -3"
+      animation="
+        property: position.x;
+        to: 2;
+        dur: 2000;
+        easing: easeInOutQuad;
+        loop: true;
+        dir: alternate">
+    </a-entity>
+
+    <a-scene>
+
+  <a-sphere position="0 2.5 -4" radius="0.2" color="black"></a-sphere>
+
+
+    <a-cylinder position="0 1.5 -4" height="1" radius="0.05" color="black"></a-cylinder>
+
+    <a-cylinder position="-0.3 1.9 -4" height="0.4" radius="0.03" color="black"
+      rotation="0 0 0"
+      animation="property: rotation; to: 0 0 45; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+    <a-cylinder position="0.3 1.9 -4" height="0.4" radius="0.03" color="black"
+      rotation="0 0 -45"
+      animation="property: rotation; to: 0 0 45; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+
+    <a-cylinder position="-0.2 0.75 -4" height="0.5" radius="0.03" color="black"
+      animation="property: rotation; to: 10 0 0; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+
+    <a-cylinder position="0.2 0.75 -4" height="0.5" radius="0.03" color="black"
+      animation="property: rotation; to: -10 0 0; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate"></a-cylinder>
+  </a-scene>
+  </a-scene>
+</body>
+</html>
