@@ -4,7 +4,6 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Medical Autopsy</title>
-<script src="https://aframe.io/releases/1.7.1/aframe.min.js"></script>
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Pacifico&display=swap" rel="stylesheet" />
 <style>
@@ -16,6 +15,17 @@ body {
   color: #fff;
 }
 
+#welcome {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #74c7f9, #2980b9);
+  text-align: center;
+  padding: 20px;
+}
+
 .navbar {
   position: fixed;
   top: 0;
@@ -24,8 +34,6 @@ body {
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-  z-index: 999;
 }
 .navbar a {
   color: #fff;
@@ -33,35 +41,54 @@ body {
   text-decoration: none;
   font-family: 'Pacifico', cursive;
   font-size: 1.2rem;
-  cursor: pointer;
 }
 .navbar a:hover {
   color: #ffd700;
   text-decoration: underline;
 }
+
+
 h1 {
+  text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 3rem;
-  text-align: center;
   margin: 20px 0;
 }
 h2 {
+  text-align: center;
   font-family: 'Pacifico', cursive;
   font-size: 2rem;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+h3 {
   text-align: center;
+  color: #fff;
+  font-family: 'Pacifico', cursive;
 }
 section {
   padding: 20px;
   max-width: 1000px;
   margin: auto;
 }
-#aframe {
-  width: 100%;
-  height: 250px;
-  margin: auto;
+
+p, li {
+  background-color: #0d3b66;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #fff;
 }
+
+
+h2, h3, h4 {
+  background-color: #f0f8ff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  color: #000;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -74,11 +101,9 @@ img {
   align-items: center;
   margin-bottom: 20px;
 }
-
 .content-row:nth-child(even) {
   flex-direction: row-reverse;
 }
-
 .content-text {
   flex: 1 1 300px;
   padding: 10px;
@@ -87,7 +112,6 @@ img {
   flex: 1 1 300px;
   padding: 10px;
 }
-
 .future-section {
   display: flex;
   flex-wrap: wrap;
@@ -128,10 +152,13 @@ img {
 
 <section id="welcome">
 <h1>Welcome to Medical Autopsy</h1>
+
 <div id="aframe">
-  <iframe src="Aframe.html" class="aframe" style="width:100%; height:250px; border:none;"></iframe>
+  <iframe src="Aframe.html" style="width:500px; height:500px; margin-top:20px; border:none; " ></iframe>
 </div>
 </section>
+
+
 
 <section id="intro">
 <h2>Introduction</h2>
@@ -139,10 +166,11 @@ img {
 </section>
 
 
+
 <section id="existing">
 <h2>Part A: Existing Technology</h2>
 
-<h3 style="text-align:center; color:#fff; font-family: 'Pacifico', cursive;">Early 19th Century: Autopsy Saws</h3>
+<h3 style="text-align:center;">Early 19th Century: Autopsy Saws</h3>
 <div class="content-row">
   <div class="content-image">
     <a href="https://www.atlasprosales.com/autopsy_saw_p/t-cc-200.htm" target="_blank">
@@ -150,15 +178,17 @@ img {
     </a>
   </div>
   <div class="content-text">
-    <h4 class="tech-title">Autopsy Saw</h4>
-    <li> Development: Made in the 1800s, with electric versions appearing around 1900.</li>
-     <li>What it is: Mechanical saws used to cut bones during autopsies.</li>
-<li>Why it’s important: Allowed precise cutting of skulls and bones safely and efficiently.</li>
-<li>These saws helped forensic doctors and pathologists open bodies more easily than manual tools.</li>
+    <h4>Autopsy Saw</h4>
+    <ul>
+      <li>Development: Made in the 1800s, with electric versions appearing around 1900.</li>
+      <li>What it is: Mechanical saws used to cut bones during autopsies.</li>
+      <li>Why it’s important: Allowed precise cutting of skulls and bones safely and efficiently.</li>
+      <li>These saws helped forensic doctors and pathologists open bodies more easily than manual tools.</li>
+    </ul>
   </div>
 </div>
 
-<h3 style="text-align:center; color:#fff; font-family: 'Pacifico', cursive;">1920s: Modern Ventilators ("Iron Lung")</h3>
+<h3 style="text-align:center;">1920s: Modern Ventilators ("Iron Lung")</h3>
 <div class="content-row">
   <div class="content-image">
     <a href="https://www.nhlbi.nih.gov/health/ventilator" target="_blank">
@@ -166,15 +196,17 @@ img {
     </a>
   </div>
   <div class="content-text">
-    <h4 class="tech-title">Ventilator</h4>
-   <li>Development: The first modern positive pressure ventilator was created in the 1950s, but early negative-pressure devices like the "iron lung" appeared in the 1920s.</li>
-<li>What it is: Machines that help patients breathe.</li>
-<li>Why it’s important: Saved lives during polio epidemics and are used today in hospitals.</li>
-<li>Although mainly for living patients, ventilators can be used in research or in post-mortem studies related to respiratory functions.</li>
+    <h4>Ventilator</h4>
+    <ul>
+      <li>Development: The first modern positive pressure ventilator was created in the 1950s, but early negative-pressure devices like the "iron lung" appeared in the 1920s.</li>
+      <li>What it is: Machines that help patients breathe.</li>
+      <li>Why it’s important: Saved lives during polio epidemics and are used today in hospitals.</li>
+      <li>Although mainly for living patients, ventilators can be used in research or in post-mortem studies related to respiratory functions.</li>
+    </ul>
   </div>
 </div>
 
-<h3 style="text-align:center; color:#fff; font-family: 'Pacifico', cursive;">Late 20th Century: Imaging & Forensics</h3>
+<h3 style="text-align:center;">Late 20th Century: Imaging & Forensics</h3>
 <div class="content-row">
   <div class="content-image">
     <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12104169/" target="_blank">
@@ -182,38 +214,40 @@ img {
     </a>
   </div>
   <div class="content-text">
-    <h4 class="tech-title">Virtual Autopsy (CT scans)</h4>
-    <li>Development: Became widespread in the late 1990s and early 2000s.</li>
-<li>What it is: Uses CT scans to produce 3D images of the inside of bodies without cutting.</li>
-<li>Why it’s important: Faster, less upsetting, and very accurate for determining cause of death.</li>
-<li>Allowed doctors to examine bodies in detail without invasive procedures.</li>
+    <h4>Virtual Autopsy (CT scans)</h4>
+    <ul>
+      <li>Development: Became widespread in the late 1990s and early 2000s.</li>
+      <li>What it is: Uses CT scans to produce 3D images of the inside of bodies without cutting.</li>
+      <li>Why it’s important: Faster, less upsetting, and very accurate for determining cause of death.</li>
+      <li>Allowed doctors to examine bodies in detail without invasive procedures.</li>
+    </ul>
   </div>
 </div>
 
-
-<h3 style="text-align:center; color:#fff; font-family: 'Pacifico', cursive;">Digital Forensics (Autopsy Software)</h3>
+<h3 style="text-align:center;">Digital Forensics (Autopsy Software)</h3>
 <div class="content-row">
   <div class="content-image">
     <a href="https://www.sleuthkit.org/autopsy/" target="_blank">
       <img src="soft.png" alt="Autopsy Software" />
     </a>
   </div>
-
   <div class="content-text">
-    <h4 class="tech-title">Autopsy Software</h4>
-    <li>Development: Started in 2000.</li>
-<li>What it is: Software like "Autopsy" helps analyze digital data from devices involved in death investigations.</li>
-<li>Why it’s important: Quickly finds clues from phones, computers, or other devices.</li>
-<li> Helps forensic experts solve mysteries by examining digital evidence.</li>
+    <h4>Autopsy Software</h4>
+    <ul>
+      <li>Development: Started in 2000.</li>
+      <li>What it is: Software like "Autopsy" helps analyze digital data from devices involved in death investigations.</li>
+      <li>Why it’s important: Quickly finds clues from phones, computers, or other devices.</li>
+      <li>Helps forensic experts solve mysteries by examining digital evidence.</li>
+    </ul>
   </div>
 </div>
+
 
 
 
 <h2 id="future">Part B: Future Technology</h2>
 
 <div class="future-section">
-
   <div class="future-side">
     <h4>MEMORY SCANNER DEVICE</h4>
     <ul>
@@ -222,13 +256,9 @@ img {
       <li>Like a USB that reads memories</li>
     </ul>
   </div>
-
-
   <div class="future-center">
-    <iframe src="aframe.html" class="aframe" style="width:100%; height:250px; border:none;"></iframe>
+    <iframe src="aframe.html" style="width:100%; height:250px; border:none;"></iframe>
   </div>
-
-
   <div class="future-side">
     <h4>MEMORY SCANNER DEVICE</h4>
     <ul>
@@ -239,10 +269,7 @@ img {
   </div>
 </div>
 
-
-
 <div class="future-section">
-
   <div class="future-side">
     <h4>AR GLASSES FOR AUTOPSY</h4>
     <ul>
@@ -265,7 +292,6 @@ img {
 </div>
 
 </section>
-
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
