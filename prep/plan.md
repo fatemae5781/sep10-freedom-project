@@ -1,14 +1,16 @@
 # Plan
 
 ## Wireframes
-* [Mobile]()
-* [Desktop]()
+* [Mobile](https://wireframe.cc/L5EiKU)
+* [Desktop](https://wireframe.cc/L5EiKU)
 
 ## Colors
-* `#ABC123`
+* `#0d3b66`
+* `#f0f8ff`
+* `#006699`
 
 ## Fonts
-* [Text](URL)
+* [Pacifico](https://fonts.google.com/specimen/Pacifico?query=Pacifico)
 
 ## Timeline
 
