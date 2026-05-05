@@ -43,7 +43,7 @@
 
 | Name | Glows | Grows |
 | -------- | ------- | ------- |
-|  |  |  |
+| amy | i really liked how organized,responsive, and the use of aframe | Add more detail about in the future teachnologies, overall its good!!  |
 |  |  |  |
 |  |  |  |
 |  |  |  |
