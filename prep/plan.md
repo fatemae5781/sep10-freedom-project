@@ -33,10 +33,10 @@
 * Task
 
 * [] Add more detail for partB for the future technologies.
-* [] change the font of the label partA and B and the color to make it stand out more.
-* [] change the position of the stick man so it appears as soon as the page loads.
-* [] link the medical autopsy to something in the navbar.
-* [] add a carousel to partA so it wont look boring.
+* [✔] change the font of the label partA and B and the color to make it stand out more.
+* [✔] change the position of the stick man so it appears as soon as the page loads.
+* [✔] link the medical autopsy to something in the navbar.
+* [✔] add a carousel to partA so it wont look boring.
 * [] If i have time make an aframe for the second future technology
 
 
