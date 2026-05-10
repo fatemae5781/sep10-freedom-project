@@ -2,7 +2,7 @@
 ##### 5/9/26
 
 ## **Content**
-
+![preview](<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 20 PM" src="https://github.com/user-attachments/assets/fd0c9728-dc25-4bcb-9496-88ce2de21c9b" />)
 To start making my MVP I first created a wireframe. This was very helpful because it showed me how I wanted my website to look before I started coding. I didn't want to just jump into coding without a plan so the wireframe helped me see the layout clearly. My idea was to have a home page with a stick man waving and a welcome message. I already had some code for a waving stick man from when i was tinkering with my tool A-FRAME so I decided to use that. This saved me time because I didn't have to code the stickman from scratch. I just embedded the AFRAME scene in my webpage using an iframe like this:
 
 ```html
