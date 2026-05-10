@@ -8,16 +8,19 @@
 </head>
 <body>
 <a-scene>
-  <!-- Only ONE stickman with legs -->
+
+
+  <a-camera position="0 1.6 3" look-controls></a-camera>
+
   <a-entity position="0 0 0">
-    <!-- Head -->
+
     <a-sphere position="0 1.8 0" radius="0.2" color="#000"></a-sphere>
-    <!-- Body -->
+
     <a-cylinder position="0 1 0" height="0.8" radius="0.1" color="#000"></a-cylinder>
-    <!-- Legs -->
+
     <a-cylinder position="0.2 0.4 0" height="0.5" radius="0.05" color="#000"></a-cylinder>
     <a-cylinder position="-0.2 0.4 0" height="0.5" radius="0.05" color="#000"></a-cylinder>
-    <!-- Left arm (waving) -->
+
     <a-cylinder
       position="-0.4 1.2 0"
       height="0.4"
@@ -25,9 +28,11 @@
       color="#000"
       animation="property: rotation; to: 0 0 45; dur: 1000; easing: easeInOutSine; loop: true; dir: alternate">
     </a-cylinder>
-    <!-- Right arm (rest) -->
+
     <a-cylinder position="0.4 1.2 0" height="0.4" radius="0.05" color="#000"></a-cylinder>
+
   </a-entity>
+
 </a-scene>
 </body>
 </html>

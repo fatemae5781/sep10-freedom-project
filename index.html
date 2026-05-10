@@ -66,7 +66,14 @@ h2, h3, h4 {
   color: #000;
 }
 
-
+.label-heading {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color:#00008B;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  margin-bottom: 10px;
+}
 p, li {
   background-color: #0d3b66;
   padding: 10px;
@@ -87,17 +94,23 @@ img {
 </head>
 <body>
 
-<nav class="navbar fixed-top">
-   <a class="navbar-brand" href="welcome">Medical autopsy</a>
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #006699;">
   <div class="container justify-content-center">
-    <a class="nav-link" href="#welcome">Home</a>
-    <a class="nav-link" href="#intro">Introduction</a>
-    <a class="nav-link" href="#existing">Part A: Tech</a>
-    <a class="nav-link" href="#future">Part B: Future</a>
+    <!-- Updated link for "Medical autopsy" -->
+    <a class="navbar-brand" href="https://www.pcom.edu/academics/programs-and-degrees/forensic-medicine/news/what-is-an-autopsy.html" style="color: #fff; font-family: 'Pacifico', cursive;">Medical autopsy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#welcome" style="color:#fff;">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#intro" style="color:#fff;">Introduction</a></li>
+        <li class="nav-item"><a class="nav-link" href="#existing" style="color:#fff;">Part A: Tech</a></li>
+        <li class="nav-item"><a class="nav-link" href="#future" style="color:#fff;">Part B: Future</a></li>
+      </ul>
+    </div>
   </div>
 </nav>
-
-
 
 <section id="welcome" class="d-flex flex-column justify-content-center align-items-center vh-100">
   <h1>Welcome to Medical Autopsy</h1>
@@ -119,14 +132,43 @@ A medical autopsy is a detailed examination of a person's body after they have d
 
 
 <section id="existing" class="my-5">
-<h2>Part A: Existing Technology</h2>
-
-<h3>Early 19th Century: Autopsy Saws</h3>
+<h2 class="label-heading">Part A: Existing Technology</h2>
 <div class="row align-items-center mb-4">
   <div class="col-md-4 text-center">
-    <a href="https://www.atlasprosales.com/autopsy_saw_p/t-cc-200.htm" target="_blank">
-      <img src="saw.png" alt="Autopsy Saw" class="img-fluid" />
-    </a>
+    <!-- Carousel -->
+    <div id="autopsyCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="saw.png" class="d-block"style="height: 300px; object-fit: cover; width: 100%;" alt="Autopsy Saw 1">
+        </div>
+        <div class="carousel-item">
+          <img src="saw1.png" class="d-block" style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 2">
+        </div>
+        <div class="carousel-item">
+          <img src="saw2.png" class="d-block" style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 3">
+        </div>
+        <div class="carousel-item">
+          <img src="saw3.png" class="d-block"style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 4">
+        </div>
+        <div class="carousel-item">
+          <img src="saw4.png" class="d-block" style="height:400px; object-fit: cover; width: 100%;"alt="Autopsy Saw 5">
+        </div>
+        <div class="carousel-item">
+          <img src="saw5.png" class="d-block" style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 6">
+        </div>
+        <div class="carousel-item">
+          <img src="saw6.png" class="d-block"style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 7">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#autopsyCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#autopsyCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
   </div>
   <div class="col-md-8">
     <h4 class="text-center">Autopsy Saw</h4>
@@ -193,7 +235,7 @@ A medical autopsy is a detailed examination of a person's body after they have d
   </div>
 </div>
 
-<h2 id="future" class="my-5">Part B: Future Technology</h2>
+<h2 class="label-heading" id="future" class="my-5">Part B: Future Technology</h2>
 <div class="row mb-4 align-items-center">
   <div class="col-md-4 text-center">
     <h4>Memory Scanner Device</h4>
