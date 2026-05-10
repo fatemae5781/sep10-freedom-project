@@ -2,7 +2,17 @@
 ##### 5/9/26
 
 ## **Content**
-![preview](<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 20 PM" src="https://github.com/user-attachments/assets/fd0c9728-dc25-4bcb-9496-88ce2de21c9b" />)
+
+<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 20 PM" src="https://github.com/user-attachments/assets/f43481b8-bfea-49c6-9ccd-eb15dd7be911" />
+
+<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 30 PM" src="https://github.com/user-attachments/assets/84f72bca-c0e6-4bfc-84f2-e6ab058374be" />
+
+<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 37 PM" src="https://github.com/user-attachments/assets/a8831eea-0844-4f0a-9174-2f5c5c105626" />
+
+<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 34 PM" src="https://github.com/user-attachments/assets/53479d61-8be0-477a-b549-d055288fceaf" />
+
+<img width="1366" height="768" alt="Screenshot 2026-05-09 11 19 40 PM" src="https://github.com/user-attachments/assets/d57a9665-402e-4bdf-980b-e26dc9c55093" />
+
 To start making my MVP I first created a wireframe. This was very helpful because it showed me how I wanted my website to look before I started coding. I didn't want to just jump into coding without a plan so the wireframe helped me see the layout clearly. My idea was to have a home page with a stick man waving and a welcome message. I already had some code for a waving stick man from when i was tinkering with my tool A-FRAME so I decided to use that. This saved me time because I didn't have to code the stickman from scratch. I just embedded the AFRAME scene in my webpage using an iframe like this:
 
 ```html
