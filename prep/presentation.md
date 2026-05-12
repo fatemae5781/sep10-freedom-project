@@ -15,7 +15,13 @@ What am I?)
 * code snippet of mvp, and the challanges i faced such as the iframe for the embedding of the arame
 ## Conclusion
 * [Url to project]
-* 
+* Planning helps save time  
+* Using existing tools makes work easier  
+* Patience and practice improve skills  
+* Asking for help is very useful  
+* Keep learning and trying new things  
+* My website is better because I learned from mistakes
+* Trying learning and asking questions help us grow 
 
 <!-- EXAMPLE
 
