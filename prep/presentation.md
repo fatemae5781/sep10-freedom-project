@@ -1,15 +1,20 @@
 # Presentation Plan
 
 ## Hook
-* 
+* A riddle about what is medical autopsy (I'm cut apart not for the sake Of art or fashion but for knowledge to make. I'm opened up with a careful hand To unravel secrets of a mysterious land. Inside my walls a story's told,Of life and death of young and old. A journey through of veins and bone To unravel the truth, that I've yet to know.
+What am I?)
 
 ## Product
-* 
+* GIF/Demo of example
+*  I show tools like advanced saws, CT scanners, and digital forensic software that are used in autopsies today.
+*  One of my ideas for the future is:A device that can read memories from the brain to help determine the cause of death faster and more accurately.
+*  How our digital tools, like 3D imaging and special software, can help doctors see inside the body without cutting, making autopsies easier and less invasive.
+*  Resize the window or look on different devices the layout adjusts so everything still looks good in different sizes 
 
 ## Process
-* 
-
+* code snippet of mvp, and the challanges i faced such as the iframe for the embedding of the arame
 ## Conclusion
+* [Url to project]
 * 
 
 <!-- EXAMPLE
