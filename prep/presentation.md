@@ -12,16 +12,21 @@ What am I?)
 *  Resize the window or look on different devices the layout adjusts so everything still looks good in different sizes 
 
 ## Process
-* code snippet of mvp, and the challanges i faced such as the iframe for the embedding of the arame
+* code snippet of mvp such as (``` <a-light type="ambient" intensity="0.5"></a-light>
+      <a-light type="directional" position="1 2 1" intensity="0.8"></a-light>``` this is the aframe usb that i made light up and ``` <div class="carousel-item">
+          <img src="saw6.png" class="d-block"style="height: 400px; object-fit: cover; width: 100%;" alt="Autopsy Saw 7">
+        </div>
+      </div> ``` this since it was hard to make the pictures be the same when i was doing the carousel ), and the challanges i faced such as the iframe for the embedding of the arame
 ## Conclusion
 * [Url to project]
 * Planning helps save time  
 * Using existing tools makes work easier  
-* Patience and practice improve skills  
+* Patience and practice improve skills  (when i was trying to rush my project and not really learn the tool the project looked bad nad had so many errors that i didnt even know why it was wrong. later when I actually started to watch videos and tutorials on how to code it made so many sense why there was errors and the project looked way better and my skills improved 
 * Asking for help is very useful  
 * Keep learning and trying new things  
 * My website is better because I learned from mistakes
-* Trying learning and asking questions help us grow 
+* Trying learning and asking questions help us grow
+* Asking for help is very useful because it can save time and fix problems faster. For example I asked my friend why my A-Frame scene wasn't showing up on my screen. I asked her what I should do to fix it and she told me that I needed to include the A-Frame library link in my project. This was a big help because it showed me what I was missing. Talking to others helped me understand better and not make the mistake again later on.  
 
 <!-- EXAMPLE
 
