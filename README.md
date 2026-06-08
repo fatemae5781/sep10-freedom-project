@@ -1,24 +1,26 @@
 # SEP10 Freedom Project
-by **X**
+by **Fatema ebidou**
 
 ## Context
 I am a student at [HSTAT](https://www.hstat.org/) in the [Software Engineering Program](https://hstatsep.github.io/). The "Freedom Project" for SEP10 is a year-long project all about making a website that informs the viewer of the current and future innovations in the topic of my choosing.
 
-For my project, I chose the topic of **X**. 
+For my project, I chose the topic of **medical autopsy**. 
 
-I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **X** in order to help me make my website.
+I used HTML, CSS, Bootstrap, and Github. I also chose to independently study **A-frame** in order to help me make my website.
 
 ## Links
 
-[Product]()
+[Product](https://fatemae5781.github.io/sep10-freedom-project/)
 
-[Presentation]()
+[Presentation](https://docs.google.com/presentation/d/1ySpeNCGamDWR017SGDWNJKK3YzIeXCnKEBUYK6J5c2w/edit?slide=id.g3e1652a2cf9_0_2281#slide=id.g3e1652a2cf9_0_2281)
 
 ## Implications
 ##### PROS
-* 
+* getting to search a topic you are interested in
+* getting you meet new people at the expo
 ##### CONS
-* 
+* having to present in front of alot of kids
+* making the slides
 
 
 ## Blog
